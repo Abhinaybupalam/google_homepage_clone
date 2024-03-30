@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    max-height: 10vh;
+   margin: 1rem;
+    ul{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    
+}
+li{
+    padding:.5rem;
+    color: rgb(103, 102, 102);
+    img{
+        height: 30px;  
+    }
+    img:hover{
+        box-shadow: 0px 2px 6px 4px rgb(211, 210, 210);
+    }
+    font-size:  1rem;
+    font-weight: 500;
+    color: black;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+.part1{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   .google_logo{
+    margin-bottom: 1rem;
+    
+    img{
+        height: 6rem;
+    }
+   }
+   
+}
+
+
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   height: 45px;
+   max-width:720px;
+   width:auto;
+   border: 1px solid rgb(229, 228, 228);
+   padding:0.2rem;
+   border-radius: 35px;
+
+
+    img{
+        height: 23px;
+        padding:6px;
+    }
+    input{
+        font-size: 20px;
+        width: 550px;
+        border: none;
+        outline: none;
+    }
+
+   
+}
+
+.box:hover{
+    box-shadow: 0px 1px 4px 1px rgb(210, 210, 210);
+
+}
+
+
+.part3{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+       
+        .search-button {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            height: 10vh;
+            input{
+
+                padding:0.5rem;
+                margin:1rem;
+                width: 150px;
+                border-radius: 5px;
+                border:none;
+                font-size: small;
+
+            }
+                input:hover{
+                    
+                    border: 1px solid rgb(221, 220, 220);
+                    cursor: pointer;
+
+                }
+
+        }
+
+        p.para{
+            display: flex;
+            justify-content: center;
+            margin-top: .5rem;
+            padding: 1rem;
+            text-align: center;
+            color:rgb(36, 36, 249);  
+            span{
+                color: black;
+            }
+            
+    }
+     
+}
+
+    footer{
+     
+        display: flex;
+        flex-direction:column;
+        background-color: rgb(245, 244, 244);
+        margin-top:13.6%;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        span{
+            padding:.5rem;
+            padding-left: 2rem;
+            font-size: 16px;
+        }
+
+        .bottom_line{
+            display: flex;
+            justify-content: space-between;
+            
+            ul{
+                display: flex;
+            list-style: none;
+            li{
+                font-size: 16px;
+                padding:0.5rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+
+            li:hover{
+                text-decoration: underline ;
+                cursor: pointer;
+            }
+            
+        }
+        }
+        
+    }
+    
